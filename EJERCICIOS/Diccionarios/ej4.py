@@ -13,6 +13,6 @@ for i in estudiante:
     aux = input()
     estudiante[i] = aux
 
-estudiante['Materias'] = estudiante['Materias'].split()
+estudiante['Materias'] = estudiante['Materias'].split(', ')
 
 print(estudiante)

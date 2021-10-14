@@ -1,0 +1,8 @@
+{
+    "Nombre":"PROBANDO",
+    "Apellido":"JEJE",
+    "Hobbies":["Ninguno"],
+    "Edad":32,
+    "Amigos":[{"Nombre":"Juan"},{"Nombre":"Marcos"}]
+    
+}

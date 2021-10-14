@@ -13,7 +13,7 @@ estudiante['Materias'] = estudiante['Materias'].split(', ')
 
 print("El original: ",estudiante)
 
-estudiante['Legajo']=input("Ingrese legajo")
+estudiante['Legajo']=input("Ingrese legajo: ")
 estudiante['Materias'].append(input("Ingrese la nueva materia: "))
 estudiante['Materias'].append(input("Ingrese la otra materia: "))
 

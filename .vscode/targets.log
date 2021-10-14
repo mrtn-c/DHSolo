@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 23 18:32:03 2021
+# Make data base, printed on Thu Oct 14 17:21:36 2021
 
 # Variables
 
@@ -18,6 +18,8 @@ make: *** No rule to make target 'all'.  Stop.
 ?F = $(notdir $?)
 # environment
 DESKTOP_SESSION = plasma
+# environment
+KONSOLE_DBUS_WINDOW = /Windows/1
 # default
 .SHELLFLAGS := -c
 # environment
@@ -30,8 +32,6 @@ XDG_SESSION_TYPE = x11
 VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
-# environment
-GTK_RC_FILES = /etc/gtk/gtkrc:/home/martin/.gtkrc:/home/martin/.config/gtkrc
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
@@ -41,11 +41,11 @@ XAUTHORITY = /run/user/1000/.Xauthority
 # default
 MAKE_VERSION := 4.2.1
 # makefile
-CURDIR := /home/martin/Escritorio/DHS /DHSolo
+CURDIR := /home/martin/Escritorio/DHS/DHSolo
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/72
+SNAP_DATA = /var/snap/code/77
 # environment
 VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
 # environment
@@ -69,41 +69,39 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
+KDED_STARTED_BY_KDEINIT = 1
+# environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/martin
 # environment
 XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/72/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/77/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/martin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 QT_AUTO_SCREEN_SCALE_FACTOR = 0
 # environment
-SESSION_MANAGER = local/mcPC:@/tmp/.ICE-unix/1393,unix/mcPC:/tmp/.ICE-unix/1393
-# environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/martin/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-SNAP = /snap/code/72
+SNAP = /snap/code/77
 # environment
-WINDOWID = 54525959
+WINDOWID = 56623111
 # environment
-SNAP_VERSION = 3866c355
+SNAP_VERSION = c13f1abb
 # environment
 VSCODE_LOG_STACK = false
 # environment
 DISABLE_WAYLAND = 1
 # environment
 VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=d4368e2d-ddd9-4b16-8306-e5c2373d9a5e&iid=d4368e2d-ddd9-4b16-8306-e5c2373d9a5e&sid=d4368e2d-ddd9-4b16-8306-e5c2373d9a5e","uploadToServer":true}
-# environment
-GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/martin/.gtkrc-2.0:/home/martin/.config/gtkrc-2.0
 # environment
 PROFILEHOME = 
 # default
@@ -113,7 +111,7 @@ LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:
 # environment
 XDG_SESSION_DESKTOP = KDE
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-izJcuJh2hCA3/agent.1212
+SSH_AUTH_SOCK = /tmp/ssh-FkWQlGVX2umd/agent.1306
 # automatic
 %F = $(notdir $%)
 # environment
@@ -125,9 +123,9 @@ VSCODE_PIPE_LOGGING = true
 # environment
 SNAP_INSTANCE_KEY = 
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/72/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/77/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
-PWD = /home/martin/Escritorio/DHS /DHSolo
+PWD = /home/martin/Escritorio/DHS/DHSolo
 # environment
 KDE_SESSION_VERSION = 5
 # default
@@ -135,7 +133,7 @@ KDE_SESSION_VERSION = 5
 # environment
 XDG_SEAT = seat0
 # environment
-SSH_AGENT_PID = 1309
+SSH_AGENT_PID = 1362
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = KDE
 # environment
@@ -147,7 +145,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/martin/.config/Code/CachedData/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa
+VSCODE_CODE_CACHE_PATH = /home/martin/.config/Code/CachedData/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63
 # environment
 LOGNAME = martin
 # environment
@@ -181,17 +179,17 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SNAP_USER_DATA = /home/martin/snap/code/72
+SNAP_USER_DATA = /home/martin/snap/code/77
 # environment
 SHLVL = 1
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-5e19cbaf-ed0e-48eb-8aa9-a1ba0964229f.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-643924b9-ac28-45e2-a29e-50956809e394.sock
 # environment
 XDG_SESSION_ID = 1
 # environment
 USER = martin
 # environment
-SNAP_REVISION = 72
+SNAP_REVISION = 77
 # makefile
 .DEFAULT_GOAL := 
 # environment
@@ -209,7 +207,7 @@ LANGUAGE = es_AR:es
 # environment
 XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-6379ee7e-1.59.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-6379ee7e-1.61.1-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -219,7 +217,7 @@ MFLAGS = -pqrR
 # environment
 BREAKPAD_DUMP_LOCATION = /home/martin/.config/Code/exthost Crash Reports
 # environment
-SHELL_SESSION_ID = 6af76df69d3e4e2ca20cb9833e3cd24c
+SHELL_SESSION_ID = 9509a12acd8d4bb595cc7a49c154dd04
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
@@ -236,8 +234,6 @@ DEFAULTS_PATH = /usr/share/gconf/plasma.default.path
 MAKEFILES := 
 # environment
 SNAP_COOKIE = 0Jk_i1zmd48Qmi-woZVubnZVT_WLflr5imQyRpROm4fm1bQzOa-G
-# environment
-VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
 # automatic
 <F = $(notdir $<)
 # environment
@@ -255,7 +251,7 @@ SNAP_REEXEC =
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
-KONSOLE_DBUS_SERVICE = :1.33
+KONSOLE_DBUS_SERVICE = :1.53
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # default
@@ -265,11 +261,11 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 2274
+VSCODE_PID = 2256
 # environment
 KDE_SESSION_UID = 1000
 # variable set hash-table stats:
-# Load=128/1024=12%, Rehash=0, Collisions=16/150=11%
+# Load=126/1024=12%, Rehash=0, Collisions=16/148=11%
 
 # Pattern-specific Variable Values
 
@@ -277,10 +273,11 @@ KDE_SESSION_UID = 1000
 
 # Directories
 
-# . (device 2068, inode 4064932): 5 files, no impossibilities.
+# . (device 2068, inode 4064932): 6 files, no impossibilities.
 
-# 5 files, no impossibilities in 1 directories.
+# 6 files, no impossibilities in 1 directories.
 
+ 
 # Implicit Rules
 
 # No implicit rules.
@@ -292,7 +289,6 @@ all:
 #  Command line target.
 #  Implicit rule search has been done.
 #  File does not exist.
- 
 #  File has not been updated.
 
 # Not a target:
@@ -330,12 +326,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 13 / storage = 111 B / avg = 8 B
-# current buf: size = 8162 B / used = 111 B / count = 13 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 14 / storage = 128 B / avg = 9 B
+# current buf: size = 8162 B / used = 128 B / count = 14 / avg = 9 B
 
-# strcache performance: lookups = 16 / hit rate = 18%
+# strcache performance: lookups = 17 / hit rate = 17%
 # hash-table stats:
-# Load=13/8192=0%, Rehash=0, Collisions=1/16=6%
-# Finished Make data base on Mon Aug 23 18:32:03 2021
+# Load=14/8192=0%, Rehash=0, Collisions=1/17=6%
+# Finished Make data base on Thu Oct 14 17:21:36 2021
 
  

@@ -14,6 +14,6 @@ diccionario["Cuarenta"] = 40
 
 print("2->El diccionario es: ",diccionario)
 
-diccionario.pop('Veinte')
+diccionario.pop("Veinte")
 
 print("3->El diccionario es: ",diccionario)

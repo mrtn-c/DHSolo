@@ -26,3 +26,4 @@ if(may == True and mini == True and sim == True):
     print("Bienvenido pá")
 else:
     print("Su contraseña es invalida pá")
+

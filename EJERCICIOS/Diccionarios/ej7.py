@@ -23,5 +23,5 @@ for i in range(2):
     for k in estudiantes:
         print(str(k)+"\n\n")
 
-for k in estudiantes:
+for k in range(2):
     print("Estudiante ", k, ": ", estudiantes[k])
